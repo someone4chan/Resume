@@ -52,6 +52,12 @@
   --contrast-color: #ffffff;
 }
 
+/* custom color preset*/
+.hover-an:hover {
+  --surface-color: color-mix(in srgb, var(--accent-color), transparent 85%);;
+}
+/* end of custom color preset */
+
 /* Smooth scroll */
 :root {
   scroll-behavior: smooth;
@@ -913,6 +919,13 @@ section,
 .services .service-item:hover {
   box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.1);
 }
+
+/* custom */
+.scale:hover .icon img {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+/* end of custom */
 
 .services .service-item.item-cyan i {
   color: #0dcaf0;

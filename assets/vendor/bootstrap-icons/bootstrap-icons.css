@@ -26,6 +26,14 @@ url("./fonts/bootstrap-icons.woff?dd67030699838ea613ee6dbda90effa6") format("wof
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+.office {
+  width: 1.5em;
+  height: 1.5em;
+  fill: currentColor; /* Makes the icon color inherit from the text color */
+}
+
+
 .bi-123::before { content: "\f67f"; }
 .bi-alarm-fill::before { content: "\f101"; }
 .bi-alarm::before { content: "\f102"; }
