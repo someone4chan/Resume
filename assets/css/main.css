@@ -1018,6 +1018,14 @@ section,
   margin: 0 auto;
 }
 
+/* custom */
+.testimonials .testimonial-item .testimonial-img-full {
+  border-radius: 1%;
+  border: 1px solid var(--default-color);
+  margin: 0 auto;
+}
+/* end of custom */
+
 .testimonials .testimonial-item h3 {
   font-size: 20px;
   font-weight: bold;
